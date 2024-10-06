@@ -29,3 +29,6 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 
 ## License
 This project is licensed under the GNU Public License.
+
+## Acknowledgements
+This project, Discogs Grail Finder, was developed during BigRedHacks 2024 at Cornell University. Thanks to the event organizers and participants for providing a space to bring this idea to life.
