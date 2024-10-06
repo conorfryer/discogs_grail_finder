@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Discogs Grail Finder",
+  "version": "1.0",
+  "description": "A browser extension for vinyl collectors that filters Discogs seller listings by condition, price, rating, and want/have ratio. Speed up your vinyl digging by instantly finding the best records.",
+  "icons": {
+    "16": "logos/discogs_grail_16.png",
+    "48": "logos/discogs_grail_48.png",
+    "128": "logos/discogs_grail_128.png"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.discogs.com/seller/*"],
+      "js": ["contentScript.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}

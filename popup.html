@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Discogs Grails Finder</title>
+  <style>
+    body { font-family: Arial, sans-serif; }
+    label { display: block; margin: 10px 0 5px; }
+  </style>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body id="popup-body">
+  <h1>Filter Settings</h1>
+
+  <label for="condition">Min Condition:</label>
+  <select id="condition">
+    <option value="Very Good Plus (VG+)">Very Good Plus (VG+)</option>
+    <option value="Near Mint (NM or M-)">Near Mint (NM or M-)</option>
+    <option value="Mint (M)">Mint (M)</option>
+  </select>
+
+  <label for="max-price">Max Price ($):</label>
+  <input type="number" id="max-price" value="50" />
+
+  <label for="min-rating">Min Rating:</label>
+  <input type="number" id="min-rating" step="0.1" min="0" max="5" value="0">
+
+  <label for="min-want-have-ratio">Min Want/Have Ratio:</label>
+  <input type="number" id="min-want-have-ratio" step="0.1" min="0" value="0">
+
+  <button id="apply-filters">Apply Filters</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>

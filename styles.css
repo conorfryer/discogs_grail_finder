@@ -1,0 +1,58 @@
+.hidden-listing {
+  display: none;
+}
+
+.highlight {
+  background-color: yellow;
+}
+
+#popup-body input,
+#popup-body select,
+#popup-body label {
+  display: block;
+  width: 85%; /* Ensure all elements have consistent width */
+  margin: 5px auto;
+  padding: 5px;
+}
+
+#popup-body select {
+  width: 91.5%; /* Make the dropdown the same width as the other inputs */
+  box-sizing: border-box; /* Ensure the padding is included in the width */
+}
+
+#popup-body label {
+  font-weight: bold;
+  text-align: center;
+}
+
+#popup-body {
+  width: 220px; /* Ensure a compact but sufficient width */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+#popup-body input, 
+#popup-body select {
+  text-align: center; /* Centers text inside the input boxes and dropdown */
+}  
+
+#popup-body h1 {
+  font-size: 16px;
+  text-align: center;
+}
+
+#popup-body #apply-filters {
+  display: block;
+  margin: 20px auto;
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#popup-body #apply-filters:hover {
+  background-color: #45a049;
+}
