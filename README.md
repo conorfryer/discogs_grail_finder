@@ -7,7 +7,7 @@ This browser extension filters Discogs seller listings by condition, price, rati
 
 ## Installation
 1. Clone or download this repository.
-2. In Chrome, go to `chrome://extensions/`. In Edge, go to `edge://extensions/`. For any other Chromium-based Browser, locate your extension manager.
+2. In Chrome, type `chrome://extensions/` in your searchbar. In Edge, type `edge://extensions/` in your searchbar. For any other Chromium-based Browser, locate your extension manager.
 3. Enable "Developer mode".
 4. Click "Load unpacked" and select the project folder.
 5. The extension will now be available in your browser.
